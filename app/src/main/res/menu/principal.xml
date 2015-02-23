@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Principal" >
+    <item
+        android:id="@+id/action_upload"
+        android:icon="@drawable/subir"
+        android:title="Upload"
+        android:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_new"
+        android:icon="@drawable/ic_action_new"
+        android:title="@string/add"
+        android:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_changeUser"
+        android:title="Cambiar Usuario"
+        android:showAsAction="ifRoom"
+        /></menu>
